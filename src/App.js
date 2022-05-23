@@ -1,7 +1,17 @@
-import Header from './components/Header';
+import HomeFeed from './pages/HomeFeed/homeFeed';
+import { Container } from './globalStyles'
+
 
 function App() {
-    return <Header />
+    return(
+        <Container>
+             <HomeFeed />
+        </Container>
+           
+        
+        
+    ) 
+    
 }
 
 export default App;

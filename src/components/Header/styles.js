@@ -1,11 +1,9 @@
 import styled from 'styled-components'
 
-
 export const Container = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Material+Icons');
   
     font-family: 'Material Icons', sans-serif;
-
     padding: 0% 20% 0% 20%;
     width: 60%;
     display: flex;
@@ -16,33 +14,52 @@ export const Container = styled.div`
         width: 100%;
         display: flex;
         justify-content: space-around;
-        .logo{
-            width: 200px;
+        
+        
+    }
+    #linkLogo{
+            width: 50%;
+        }
+    .logo{
+            width: 60%;
             padding: 25px,5px,25px,25px;
             cursor: pointer;
         }
         
-    }
     .nav {
-        width: 50%;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-around;
         
     a {
         cursor: pointer;
-
-    }
-        .SVG {
-            border-radius:50%;
-            border-style: solid;
-            border-color: #dddddd;
-            padding: 20px 20px;
-            color: #fff;
-            cursor: pointer;
-            
+ 
         }
-        
     }
 
-`;
+    
+
+/* icones svg */
+
+    .css-tzssek-MuiSvgIcon-root {
+        color: #f8bbee;
+    }
+
+    .MuiSvgIcon-fontSizeLarge{
+        font-size: 100%;
+        border-color: #f8bbee;
+    }
+
+
+    /* fim icones svg */
+@media (max-width:992px){
+    .MuiSvgIcon-fontSizeLarge{
+
+    }
+
+    .logo{
+        width: 80%;
+    }
+
+}`
