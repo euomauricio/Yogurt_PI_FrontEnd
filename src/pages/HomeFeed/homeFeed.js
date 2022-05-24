@@ -1,5 +1,5 @@
 import Header from '../../components/Header';
-import Post from '../../components/Post/post';
+import CentralFeed from '../../components/CentralFeed/centralFeed';
 import { Container } from './stylesHomeFeed'
 
 function HomeFeed() {
@@ -14,8 +14,7 @@ function HomeFeed() {
 
 
                 <div className="barraCentral">
-                <Post />
-
+                    <CentralFeed />
                 </div>
 
 

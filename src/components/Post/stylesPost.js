@@ -21,6 +21,7 @@ width: 100%;
     margin: 5px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -38,6 +39,37 @@ padding: 0px;
     .css-sghohy-MuiButtonBase-root-MuiButton-root{
     background-color: #f8bbee;
 }
+}
+
+
+
+
+
+/* feedPost */
+
+.conteudoDaPostagem{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow:hidden;
+
+    .midiaDaPostagem{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        max-width: 100%;
+        max-height: 100%;
+        
+    }
+
+    .reacoesDaPostagem{
+        margin: 20px;
+        display: flex;
+        justify-content:space-between;
+        
+    }
+
 }
 
 
