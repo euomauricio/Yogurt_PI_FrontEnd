@@ -1,0 +1,14 @@
+
+.profilePictureDiv img {
+    border-radius: 50%;
+    
+    width: 300px;
+    height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .profilePictureDiv img {
+        width: 200px;
+        height: 200px;
+    }
+}
